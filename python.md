@@ -32,7 +32,7 @@ Turn them off for a specific function
 ```python
 import warnings
 
-def fxn()
+def fxn():
     warnings.warn("deprecated", DeprecationWarning)
     
 with warnings.catch_warnings():
